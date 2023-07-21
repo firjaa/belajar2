@@ -1,0 +1,116 @@
+@media (max-width: 750px) {
+  .container-whole-vidio {
+   grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 751px ) and (max-width: 999px) {
+  .container-whole-vidio {
+   grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container-whole-vidio {
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+} 
+
+.container-whole-vidio {
+  display: grid;
+  column-gap: 16px;
+  row-gap: 8px;
+}
+
+.container-vidio {
+ vertical-align: top;
+}
+
+.container-thumbnail {
+  position: relative;
+}
+
+.thumbnail {
+  width: 100%;
+  border-radius: 14px;
+  transition: border-radius 0.20s;
+}
+
+.thumbnail:hover {
+  border-radius: 0;
+}
+
+.time {
+  position: absolute;
+  color: white;
+  background-color: black;
+  padding: 0 4px 0 4px;
+  bottom: 11px;
+  right: 8px;
+  border-radius: 4px;
+}
+
+.profile-title {
+  display: flex;
+  margin-top: 10px; 
+  
+}
+
+.profile-picture {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.name-views {
+  color: rgb(101, 101, 101);
+  font-size: 14px;
+  margin-bottom: 4px;
+ 
+}
+
+.container-svg {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  left: 0;
+  display: flex;
+  height: 28px;
+  justify-content: center;
+  background-color: rgba(85, 89, 70, 0.8);
+  border-radius:  0 0 12px  12px;
+}
+
+.svg {
+  fill: currentColor;
+  color: white;
+}
+
+.centang {
+  background-color: rgb(101, 101, 101);
+  color: white;
+  border-radius: 50%;
+  padding: 2px 4px 2px 4px;
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.live {
+  width: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: red;
+  padding: 1px 4px 1px 4px;
+  fill: white;
+  border-radius: 4px;
+  font-weight: 700;
+}

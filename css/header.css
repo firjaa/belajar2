@@ -1,0 +1,128 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 57px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  z-index: 100;
+  background-color: white;
+}
+
+.h-left {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.left-icon1 {
+  width: 24px;
+  margin-right: 23px;
+  
+}
+
+.left-icon2 {
+  width: 90px;
+}
+
+.h-center {
+  display: flex;
+  align-items: center;
+  max-width: 780px;
+  flex: 1;
+  margin-left: 35px;
+}
+
+.center-input {
+  flex: 1;
+  height: 41px;
+  min-width: 0;
+  border: 1px solid rgb(204, 204, 204);
+  padding-left: 12px;
+  font-size: 16px;
+  width: 0;
+  outline: none;
+  border-radius: 18px 0 0 18px  ;
+}
+
+.container-center-hover{
+  position: relative;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: center;
+}
+
+.abs1 {
+  position: absolute;
+  bottom: -50px;
+  color: white;
+  background-color: rgb(106, 106, 106);
+  padding: 6px;
+  border-radius: 4px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s;
+}
+
+.container-center-hover:hover .abs1 {
+  opacity: 1;
+}
+
+.center-button1 {
+  border: 1px solid rgb(204, 204, 204);
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: -2px;
+  background-color: rgb(243, 243, 243); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0 18px 18px 0px;
+}
+
+.center-icon1 {
+  width: 25px;
+  height: 37px;
+}
+
+.center-button2 {
+ border: none;
+ border-radius: 50%;
+ padding: 8px 8px 8px 8px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-left: 8px;
+ background-color: rgb(245, 245, 245);
+}
+
+.center-icon2 {
+  width: 24px;
+  height: 24px;
+}
+
+.h-right {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+  width: 180px;
+  align-items: center;
+  margin-left: 27px;
+  flex-shrink: 0;
+}
+
+.right-icon1 {
+  width: 24px;
+}
+
+.right-profile {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+}
